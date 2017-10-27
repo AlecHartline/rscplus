@@ -108,6 +108,7 @@ public class Reflection {
 			
 			// Character
 			c = classLoader.loadClass("ta");
+			
 			characterName = c.getDeclaredField("C");
 			characterWaypointX = c.getDeclaredField("i");
 			characterWaypointY = c.getDeclaredField("K");

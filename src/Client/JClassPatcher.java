@@ -197,6 +197,7 @@ public class JClassPatcher {
 			
 			// Client version
 			hookStaticVariable(methodNode, "fa", "d", "I", "Game/Client", "version", "I");
+			
 		}
 	}
 	

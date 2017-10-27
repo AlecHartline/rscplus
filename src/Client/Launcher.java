@@ -81,8 +81,10 @@ public class Launcher extends JFrame implements Runnable {
 		
 		setVisible(true);
 		new Thread(this).start();
+		
+		new MidiHandler().start();
+		
 	}
-	
 	/**
 	 * Generates a config file if needed and launches the main client window.
 	 */

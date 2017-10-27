@@ -32,6 +32,7 @@ import java.net.URL;
 import java.net.URLConnection;
 import java.util.ArrayList;
 import java.util.List;
+
 import org.fusesource.jansi.AnsiConsole;
 import Client.KeybindSet;
 import Client.Logger;
@@ -39,7 +40,6 @@ import Client.NotificationsHandler;
 import Client.NotificationsHandler.NotifType;
 import Client.Settings;
 import Client.TwitchIRC;
-
 /**
  * This class prepares the client for login, handles chat messages, and performs player related calculations.
  */
